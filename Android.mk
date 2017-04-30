@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),jalteskt)
+ifeq ($(TARGET_DEVICE),jaltelgt)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

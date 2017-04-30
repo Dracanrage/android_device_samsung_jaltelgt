@@ -93,12 +93,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -115,35 +110,8 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
-        <mixer name="Ext Physical Port" value0="1" />
-        <mixer name="Voice Physical Port" value0="2" />
-        <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
-    </group>
-    <group name="Earpiece_VoLTE_Voice_NB_Type0">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall" file="aec_ae1_through.dat" />
-        <parameter name="VoiceCall" file="aec_config.dat" />
-        <parameter name="VoiceCall" file="aec_hf50_nb_vbox_cp.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
-        <parameter name="VoiceCall (2MIC)" file="aec_hf50_vnb_type0_rc_2mic_2.dat" />
-        <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
-        <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
-        <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
-        <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
-        <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
         <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
@@ -159,12 +127,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -181,35 +144,8 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
-        <mixer name="Ext Physical Port" value0="1" />
-        <mixer name="Voice Physical Port" value0="2" />
-        <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
-    </group>
-    <group name="Earpiece_VoLTE_Voice_NB_Type1">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall" file="aec_ae1_through.dat" />
-        <parameter name="VoiceCall" file="aec_config.dat" />
-        <parameter name="VoiceCall" file="aec_hf50_nb_vbox_cp.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
-        <parameter name="VoiceCall (2MIC)" file="aec_hf50_vnb_type1_rc_2mic_2.dat" />
-        <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
-        <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
-        <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
-        <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
-        <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
         <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
@@ -225,12 +161,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -247,12 +178,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -267,12 +193,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -287,12 +208,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -335,6 +251,81 @@
         <mixer name="Adif2 Input Volume" value0="96" value1="96" />
         <mixer name="Adif2 Input Switch" value0="1" value1="1" />
     </group>
+    <group name="Earpiece_Incall_VT_NB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="53" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="53" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Receiver Volume" value0="99" />
+        <mixer name="Receiver Switch" value0="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="5" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+    <group name="Earpiece_Incall_VT_WB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="53" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="53" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Receiver Volume" value0="99" />
+        <mixer name="Receiver Switch" value0="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="5" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+
     <group name="Earpiece_Incall_VT_NB_Type0">
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall" file="aec_control_path_off.dat" />
@@ -346,12 +337,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -368,12 +354,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -390,12 +371,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -412,12 +388,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -434,12 +405,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -456,12 +422,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -476,12 +437,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -496,12 +452,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_1mic.dat" />
         <parameter name="VoiceCall" file="aec_rc_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -641,12 +592,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -663,12 +609,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -685,12 +626,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -707,12 +643,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -726,12 +657,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -745,12 +671,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -764,12 +685,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -783,12 +699,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -832,6 +743,83 @@
         <mixer name="Adif2 Input Volume" value0="96" value1="96" />
         <mixer name="Adif2 Input Switch" value0="1" value1="1" />
     </group>
+    <group name="Speaker_Incall_VT_NB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="2" value1="1" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="54" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="61" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac1 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac1 Output Switch" value0="1" value1="1" />
+        <mixer name="Speaker Volume" value0="111" value1="111" />
+        <mixer name="Speaker Switch" value0="1" value1="1" />
+        <mixer name="SP Gain" value0="4" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac1 Swap" value0="5" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+    <group name="Speaker_Incall_VT_WB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="2" value1="1" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="54" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="61" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac1 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac1 Output Switch" value0="1" value1="1" />
+        <mixer name="Speaker Volume" value0="111" value1="111" />
+        <mixer name="Speaker Switch" value0="1" value1="1" />
+        <mixer name="SP Gain" value0="4" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac1 Swap" value0="5" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+
     <group name="Speaker_Incall_VT_NB_Type0">
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall" file="aec_control_path_off.dat" />
@@ -843,12 +831,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -865,12 +848,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -887,12 +865,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -909,12 +882,7 @@
         <parameter name="VoiceCall (2MIC)" file="aec_hf50_chsel_src.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -928,12 +896,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -947,12 +910,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -966,12 +924,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -985,12 +938,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_sp_dac1.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1164,12 +1112,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_hp_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1183,12 +1126,7 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_hp_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1231,6 +1169,81 @@
         <mixer name="Adif2 Input Volume" value0="96" value1="96" />
         <mixer name="Adif2 Input Switch" value0="1" value1="1" />
     </group>
+    <group name="Headphone_Incall_VT_NB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="60" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="60" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Headphone Volume" value0="81" value1="81" />
+        <mixer name="Headphone Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="0" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+    <group name="Headphone_Incall_VT_WB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Sub Mic" value0="MIC2" />
+        <mixer name="Mic1 Volume" value0="60" />
+        <mixer name="Mic1 Switch" value0="1" />
+        <mixer name="Mic2 Volume" value0="60" />
+        <mixer name="Mic2 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Headphone Volume" value0="81" value1="81" />
+        <mixer name="Headphone Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="0" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+
     <group name="Headphone_Incall_VT_Audio">
         <mixer name="Music Input Volume" value0="96" value1="96" />
         <mixer name="Music Input Switch" value0="1" value1="1" />
@@ -1360,12 +1373,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_hp_dac0.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1379,12 +1387,7 @@
         <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_hp_dac0.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
         <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
-        <mixer name="Ext Input Pcm Bit Order" value0="MSB" />
-        <mixer name="Ext Output Pcm Bit Order" value0="MSB" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1424,6 +1427,75 @@
         <mixer name="Adif2 Input Volume" value0="96" value1="96" />
         <mixer name="Adif2 Input Switch" value0="1" value1="1" />
     </group>
+    <group name="Headset_Incall_VT_NB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Mic4 Volume" value0="62" />
+        <mixer name="Mic4 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Headphone Volume" value0="81" value1="81" />
+        <mixer name="Headphone Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="0" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+    <group name="Headset_Incall_VT_WB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Adif1 Input Volume" value0="94" value1="94" />
+        <mixer name="Adif1 Input Switch" value0="1" value1="1" />
+        <mixer name="ADIF1 Source" value0="1" value1="2" />
+        <mixer name="Mic4 Volume" value0="62" />
+        <mixer name="Mic4 Switch" value0="1" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- Lch: transmit & Rch: receive(for incall recording) -->
+        <mixer name="Ref Input Volume" value0="96" value1="96" />
+        <mixer name="Ref Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <mixer name="Dac0 Output Volume" value0="96" value1="96" />
+        <mixer name="Dac0 Output Switch" value0="1" value1="1" />
+        <mixer name="Headphone Volume" value0="81" value1="81" />
+        <mixer name="Headphone Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Dac0 Swap" value0="0" />
+        <!-- Lch: AEC reference & Rch: receive -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+        <!-- AEC reference -->
+        <mixer name="Adif2 Input Volume" value0="96" value1="96" />
+        <mixer name="Adif2 Input Switch" value0="1" value1="1" />
+    </group>
+
     <group name="Headset_Incall_VT_Audio">
         <mixer name="Music Input Volume" value0="96" value1="96" />
         <mixer name="Music Input Switch" value0="1" value1="1" />
@@ -1588,6 +1660,43 @@
         <mixer name="Ref Output Volume" value0="96" value1="96" />
         <mixer name="Ref Output Switch" value0="1" value1="1" />
     </group>
+    <group name="Bluetooth_Incall_VT_NB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- AEC reference -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+    </group>
+    <group name="Bluetooth_Incall_VT_WB">
+        <!-- transmit -->
+        <mixer name="Voice Output Volume" value0="96" value1="96" />
+        <mixer name="Voice Output Switch" value0="1" value1="1" />
+        <mixer name="Ext Input Volume" value0="96" value1="96" />
+        <mixer name="Ext Input Switch" value0="1" value1="1" />
+        <!-- receive -->
+        <mixer name="Voice Input Volume" value0="96" value1="96" />
+        <mixer name="Voice Input Switch" value0="1" value1="1" />
+        <mixer name="Ext Output Volume" value0="96" value1="96" />
+        <mixer name="Ext Output Switch" value0="1" value1="1" />
+        <mixer name="Voice In Swap" value0="2" />
+        <mixer name="Ext In Swap" value0="2" />
+        <mixer name="Ext Out Swap" value0="2" />
+        <!-- AEC reference -->
+        <mixer name="Ref Output Volume" value0="96" value1="96" />
+        <mixer name="Ref Output Switch" value0="1" value1="1" />
+    </group>
+
     <group name="Bluetooth_Incall_VT_Audio">
         <mixer name="Music Input Volume" value0="96" value1="96" />
         <mixer name="Music Input Switch" value0="1" value1="1" />
@@ -1643,10 +1752,6 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb.dat" />
         <parameter name="VoiceCall" file="aec_line1_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="10" />         
-        <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
         <mixer name="Voice Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1660,10 +1765,6 @@
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb.dat" />
         <parameter name="VoiceCall" file="aec_line1_dac0.dat" />
         <parameter name="VoiceCall" file="aec_adc.dat" />
-        <mixer name="Ext Rate" value0="6" />         
-        <mixer name="Ext MasterSlave" value0="0" />
-        <mixer name="Ext Interface" value0="PCM" />
-        <mixer name="Ext Bitclock Rate" value0="15" />
         <mixer name="Voice Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="1" />
         <mixer name="Voice Physical Port" value0="2" />
@@ -1773,7 +1874,6 @@
         <parameter name="VoiceCall" file="aec_config.dat" />
         <parameter name="VoiceCall" file="aec_fdsp_bypass_nb_bt.dat" />
         <mixer name="Voice Rate" value0="10" />
-        <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
     </group>
     <group name="ACPU_Incall_WB">
         <mixer name="Clear Dsp Parameter" value0="ON" />
@@ -1845,7 +1945,7 @@
         <parameter name="VoiceCall" file="aec_config.dat" />
         <parameter name="VoiceCall" file="aec_fdsp_bypass_wb_bt.dat" />
         <mixer name="Voice Rate" value0="6" />
-        <parameter name="VoiceCall" file="aec_control_path_resume.dat" />		
+        <parameter name="VoiceCall" file="aec_control_path_resume.dat" />
     </group>
 <!-- Group for Incommunication -->
     <group name="Earpiece_VoLTE_Video_NB">
@@ -2108,7 +2208,7 @@
         <mixer name="Voice Input Switch" value0="1" value1="1" />
         <mixer name="Dac1 Output Volume" value0="96" value1="96" />
         <mixer name="Dac1 Output Switch" value0="1" value1="1" />
-        <mixer name="Speaker Volume" value0="95" value1="95" />
+        <mixer name="Speaker Volume" value0="111" value1="111" />
         <mixer name="Speaker Switch" value0="1" value1="1" />
         <mixer name="SP Gain" value0="4" />
         <mixer name="Dac1 Swap" value0="6" />
@@ -2779,147 +2879,11 @@
         <mixer name="Ref Output Volume" value0="96" value1="96" />
         <mixer name="Ref Output Switch" value0="1" value1="1" />
     </group>
-    <group name="Bluetooth_VoLTE_Video_NB_BT8">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
-        <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
-        <mixer name="Ext Rate" value0="10" />
-        <mixer name="Ext Physical Port" value0="2" />
-        <mixer name="Voice Physical Port" value0="1" />
-        <parameter name="VoiceCall (1MIC)" file="aec_config.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_voip.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_resume.dat" />
-        <!-- transmit -->
-        <mixer name="Voice Output Volume" value0="96" value1="96" />
-        <mixer name="Voice Output Switch" value0="1" value1="1" />
-        <mixer name="Ref Input Volume" value0="96" value1="96" />
-        <mixer name="Ref Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Input Volume" value0="96" value1="96" />
-        <mixer name="Ext Input Switch" value0="1" value1="1" />
-        <!-- receive -->
-        <mixer name="Music Input Volume" value0="89" value1="89" />
-        <mixer name="Music Input Switch" value0="1" value1="1" />
-        <mixer name="Music In0 Swap" value0="0" />
-        <mixer name="Voice Input Volume" value0="96" value1="96" />
-        <mixer name="Voice Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Output Volume" value0="96" value1="96" />
-        <mixer name="Ext Output Switch" value0="1" value1="1" />
-        <mixer name="Ext Out Swap" value0="2" />
-        <!-- AEC reference -->
-        <mixer name="Ref Output Volume" value0="96" value1="96" />
-        <mixer name="Ref Output Switch" value0="1" value1="1" />
-    </group>
-    <group name="Bluetooth_VoLTE_Video_NB_BT16">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
-        <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
-        <mixer name="Ext Rate" value0="6" />
-        <mixer name="Ext Physical Port" value0="2" />
-        <mixer name="Voice Physical Port" value0="1" />
-        <parameter name="VoiceCall (1MIC)" file="aec_config.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_voip.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_resume.dat" />
-        <!-- transmit -->
-        <mixer name="Voice Output Volume" value0="96" value1="96" />
-        <mixer name="Voice Output Switch" value0="1" value1="1" />
-        <mixer name="Ref Input Volume" value0="96" value1="96" />
-        <mixer name="Ref Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Input Volume" value0="96" value1="96" />
-        <mixer name="Ext Input Switch" value0="1" value1="1" />
-        <!-- receive -->
-        <mixer name="Music Input Volume" value0="89" value1="89" />
-        <mixer name="Music Input Switch" value0="1" value1="1" />
-        <mixer name="Music In0 Swap" value0="0" />
-        <mixer name="Voice Input Volume" value0="96" value1="96" />
-        <mixer name="Voice Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Output Volume" value0="96" value1="96" />
-        <mixer name="Ext Output Switch" value0="1" value1="1" />
-        <mixer name="Ext Out Swap" value0="2" />
-        <!-- AEC reference -->
-        <mixer name="Ref Output Volume" value0="96" value1="96" />
-        <mixer name="Ref Output Switch" value0="1" value1="1" />
-    </group>
-
-    <group name="Bluetooth_VoLTE_Video_WB_BT8">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
-        <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
-        <mixer name="Ext Rate" value0="10" />
-        <mixer name="Ext Physical Port" value0="2" />
-        <mixer name="Voice Physical Port" value0="1" />
-        <parameter name="VoiceCall (1MIC)" file="aec_config.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_voip.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_resume.dat" />
-        <!-- transmit -->
-        <mixer name="Voice Output Volume" value0="96" value1="96" />
-        <mixer name="Voice Output Switch" value0="1" value1="1" />
-        <mixer name="Ref Input Volume" value0="96" value1="96" />
-        <mixer name="Ref Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Input Volume" value0="96" value1="96" />
-        <mixer name="Ext Input Switch" value0="1" value1="1" />
-        <!-- receive -->
-        <mixer name="Music Input Volume" value0="89" value1="89" />
-        <mixer name="Music Input Switch" value0="1" value1="1" />
-        <mixer name="Music In0 Swap" value0="0" />
-        <mixer name="Voice Input Volume" value0="96" value1="96" />
-        <mixer name="Voice Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Output Volume" value0="96" value1="96" />
-        <mixer name="Ext Output Switch" value0="1" value1="1" />
-        <mixer name="Ext Out Swap" value0="2" />
-        <!-- AEC reference -->
-        <mixer name="Ref Output Volume" value0="96" value1="96" />
-        <mixer name="Ref Output Switch" value0="1" value1="1" />
-    </group>
-    <group name="Bluetooth_VoLTE_Video_WB_BT16">
-        <mixer name="Clear Dsp Parameter" value0="ON" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
-        <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
-        <mixer name="Ext Rate" value0="6" />
-        <mixer name="Ext Physical Port" value0="2" />
-        <mixer name="Voice Physical Port" value0="1" />
-        <parameter name="VoiceCall (1MIC)" file="aec_config.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_fdsp_bypass_voip.dat" />
-        <parameter name="VoiceCall (1MIC)" file="aec_control_path_resume.dat" />
-        <!-- transmit -->
-        <mixer name="Voice Output Volume" value0="96" value1="96" />
-        <mixer name="Voice Output Switch" value0="1" value1="1" />
-        <mixer name="Ref Input Volume" value0="96" value1="96" />
-        <mixer name="Ref Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Input Volume" value0="96" value1="96" />
-        <mixer name="Ext Input Switch" value0="1" value1="1" />
-        <!-- receive -->
-        <mixer name="Music Input Volume" value0="89" value1="89" />
-        <mixer name="Music Input Switch" value0="1" value1="1" />
-        <mixer name="Music In0 Swap" value0="0" />
-        <mixer name="Voice Input Volume" value0="96" value1="96" />
-        <mixer name="Voice Input Switch" value0="1" value1="1" />
-        <mixer name="Ext Output Volume" value0="96" value1="96" />
-        <mixer name="Ext Output Switch" value0="1" value1="1" />
-        <mixer name="Ext Out Swap" value0="2" />
-        <!-- AEC reference -->
-        <mixer name="Ref Output Volume" value0="96" value1="96" />
-        <mixer name="Ref Output Switch" value0="1" value1="1" />
-    </group>
-
     <group name="Bluetooth_Incommunication_BT8">
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -2950,9 +2914,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -2984,9 +2946,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3017,9 +2977,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3051,9 +3009,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3084,9 +3040,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3118,9 +3072,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3151,9 +3103,7 @@
         <mixer name="Clear Dsp Parameter" value0="ON" />
         <parameter name="VoiceCall (1MIC)" file="aec_control_path_off.dat" />
         <parameter name="VoiceCall (1MIC)" file="aec_ae1_through.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3259,22 +3209,17 @@
         <mixer name="Ref Output Volume" value0="96" value1="96" />
         <mixer name="Ref Output Switch" value0="1" value1="1" />
     </group>
-
 <!-- Group for Set Bluetooth -->
     <group name="Set_Bluetooth_Port">
         <parameter name="DSP (Output)" file="aec_control_path_off.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
         <parameter name="DSP (Output)" file="aec_control_path_resume.dat" />
     </group>
     <group name="Set_Bluetooth_Port_BT8">
         <parameter name="DSP (Output)" file="aec_control_path_off.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="10" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3282,9 +3227,7 @@
     </group>
     <group name="Set_Bluetooth_Port_BT16">
         <parameter name="DSP (Output)" file="aec_control_path_off.dat" />
-        <mixer name="Ext Bitclock Rate" value0="2" />
         <mixer name="Ext MasterSlave" value0="1" />
-        <mixer name="Ext Interface" value0="DA" />
         <mixer name="Ext Rate" value0="6" />
         <mixer name="Ext Physical Port" value0="2" />
         <mixer name="Voice Physical Port" value0="1" />
@@ -3331,14 +3274,14 @@
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="2MIC" />
         <group name="Earpiece_Incall_NB" />
-        <group name="Earpiece_VoLTE_Voice_NB_Type0" />
+        <group name="Earpiece_Incall_NB_Type0" />
         <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Earpiece_VoLTE_Voice_NB_Type1">
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="2MIC" />
         <group name="Earpiece_Incall_NB" />
-        <group name="Earpiece_VoLTE_Voice_NB_Type1" />
+        <group name="Earpiece_Incall_NB_Type1" />
         <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Earpiece_VoLTE_Voice_NB_Type2">
@@ -3456,9 +3399,9 @@
     <scenario name="AndroidPlayback_Earpiece_VoLTE_Video_NB_Type3">
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="MainMIC" />
-        <group name="Earpiece_VoLTE_Video_NB" />
-        <group name="Earpiece_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Earpiece_Incall_VT_NB" />
+        <group name="Earpiece_Incall_VT_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 <!--
     <scenario name="AndroidPlayback_Earpiece_Incall_VT_WB_Type0">
@@ -3499,9 +3442,9 @@
     <scenario name="AndroidPlayback_Earpiece_VoLTE_Video_WB_Type3">
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="MainMIC" />
-        <group name="Earpiece_VoLTE_Video_WB" />
-        <group name="Earpiece_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Earpiece_Incall_VT_WB" />
+        <group name="Earpiece_Incall_VT_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Loopback_Earpiece_Normal">
         <mixer name="Output Path" value0="RC" />
@@ -3672,9 +3615,9 @@
     <scenario name="AndroidPlayback_Speaker_VoLTE_Video_NB_Type3">
         <mixer name="Output Path" value0="SP" />
         <mixer name="Incall Mic Speaker" value0="SubMIC" />
-        <group name="Speaker_VoLTE_Video_NB" />
-        <group name="Speaker_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Speaker_Incall_VT_NB" />
+        <group name="Speaker_Incall_VT_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 <!--
     <scenario name="AndroidPlayback_Speaker_Incall_VT_WB_Type0">
@@ -3715,9 +3658,9 @@
     <scenario name="AndroidPlayback_Speaker_VoLTE_Video_WB_Type3">
         <mixer name="Output Path" value0="SP" />
         <mixer name="Incall Mic Speaker" value0="SubMIC" />
-        <group name="Speaker_VoLTE_Video_WB" />
-        <group name="Speaker_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Speaker_Incall_VT_WB" />
+        <group name="Speaker_Incall_VT_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Loopback_Speaker_Normal">
         <mixer name="Output Path" value0="SP" />
@@ -3784,15 +3727,17 @@
 <!-- VoLTE_Video_NB (Headphone) -->
     <scenario name="AndroidPlayback_Headphone_VoLTE_Video_NB">
         <mixer name="Output Path" value0="HP" />
-        <group name="Headphone_VoLTE_Video_NB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headphone_Incall_VT_NB" />
+        <group name="Headphone_Incall_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 
 <!-- VoLTE_Video_WB (Headphone) -->
     <scenario name="AndroidPlayback_Headphone_VoLTE_Video_WB">
         <mixer name="Output Path" value0="HP" />
-        <group name="Headphone_VoLTE_Video_WB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headphone_Incall_VT_WB" />
+        <group name="Headphone_Incall_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Loopback_Headphone_Normal">
         <mixer name="Output Path" value0="HP" />
@@ -3850,15 +3795,17 @@
 <!-- VoLTE_Video_WB (Headset) -->
     <scenario name="AndroidPlayback_Headset_VoLTE_Video_NB">
         <mixer name="Output Path" value0="HS" />
-        <group name="Headset_VoLTE_Video_NB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headset_Incall_VT_NB" />
+        <group name="Headset_Incall_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 
 <!-- VoLTE_Video_WB (Headset) -->
     <scenario name="AndroidPlayback_Headset_VoLTE_Video_WB">
         <mixer name="Output Path" value0="HS" />
-        <group name="Headset_VoLTE_Video_WB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headset_Incall_VT_WB" />
+        <group name="Headset_Incall_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 
     <scenario name="AndroidPlayback_Loopback_Headset_Normal">
@@ -3938,23 +3885,27 @@
 <!-- VoLTE_Video (Bluetooth) -->
     <scenario name="AndroidPlayback_Bluetooth_VoLTE_Video_BT8_NB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_NB_BT8" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_NB" />
+        <group name="Bluetooth_Incall_BT8_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Bluetooth_VoLTE_Video_BT16_NB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_NB_BT16" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_NB" />
+        <group name="Bluetooth_Incall_BT16_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Bluetooth_VoLTE_Video_BT8_WB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_WB_BT8" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_WB" />
+        <group name="Bluetooth_Incall_BT8_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Bluetooth_VoLTE_Video_BT16_WB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_WB_BT16" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_WB" />
+        <group name="Bluetooth_Incall_BT16_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="incall2" />
     </scenario>
 
 <!--
@@ -4054,7 +4005,7 @@
         <mixer name="Incall Mic Receiver" value0="2MIC" />
         <group name="Earpiece_Incall_NB" />
         <group name="Earpiece_Incall_Audio" />
-        <group name="Earpiece_VoLTE_Voice_NB_Type0" />
+        <group name="Earpiece_Incall_NB_Type0" />
         <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Earpiece_VoLTE_Voice_NB_Type1">
@@ -4062,7 +4013,7 @@
         <mixer name="Incall Mic Receiver" value0="2MIC" />
         <group name="Earpiece_Incall_NB" />
         <group name="Earpiece_Incall_Audio" />
-        <group name="Earpiece_VoLTE_Voice_NB_Type1" />
+        <group name="Earpiece_Incall_NB_Type1" />
         <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Earpiece_VoLTE_Voice_NB_Type2">
@@ -4197,9 +4148,10 @@
     <scenario name="AndroidPlayback_Audio_Earpiece_VoLTE_Video_NB_Type3">
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="MainMIC" />
-        <group name="Earpiece_VoLTE_Video_NB" />
-        <group name="Earpiece_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Earpiece_Incall_VT_NB" />
+        <group name="Earpiece_Incall_Audio" />
+        <group name="Earpiece_Incall_VT_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 
 <!--
@@ -4248,9 +4200,10 @@
     <scenario name="AndroidPlayback_Audio_Earpiece_VoLTE_Video_WB_Type3">
         <mixer name="Output Path" value0="RC" />
         <mixer name="Incall Mic Receiver" value0="MainMIC" />
-        <group name="Earpiece_VoLTE_Video_WB" />
-        <group name="Earpiece_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Earpiece_Incall_VT_WB" />
+        <group name="Earpiece_Incall_Audio" />
+        <group name="Earpiece_Incall_VT_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 
     <scenario name="AndroidPlayback_Audio_Loopback_Earpiece_Normal">
@@ -4446,9 +4399,10 @@
     <scenario name="AndroidPlayback_Audio_Speaker_VoLTE_Video_NB_Type3">
         <mixer name="Output Path" value0="SP" />
         <mixer name="Incall Mic Speaker" value0="SubMIC" />
-        <group name="Speaker_VoLTE_Video_NB" />
-        <group name="Speaker_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Speaker_Incall_VT_NB" />
+        <group name="Speaker_Incall_Audio" />
+        <group name="Speaker_Incall_VT_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 <!--
     <scenario name="AndroidPlayback_Audio_Speaker_Incall_VT_WB_Type0">
@@ -4496,9 +4450,10 @@
     <scenario name="AndroidPlayback_Audio_Speaker_VoLTE_Video_WB_Type3">
         <mixer name="Output Path" value0="SP" />
         <mixer name="Incall Mic Speaker" value0="SubMIC" />
-        <group name="Speaker_VoLTE_Video_WB" />
-        <group name="Speaker_Incommunication_Type3" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Speaker_Incall_VT_WB" />
+        <group name="Speaker_Incall_Audio" />
+        <group name="Speaker_Incall_VT_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 
     <scenario name="AndroidPlayback_Audio_Loopback_Speaker_Normal">
@@ -4570,14 +4525,18 @@
 <!-- Audio+VoLTE_Video_NB (Headphone) -->
     <scenario name="AndroidPlayback_Audio_Headphone_VoLTE_Video_NB">
         <mixer name="Output Path" value0="HP" />
-        <group name="Headphone_VoLTE_Video_NB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headphone_Incall_VT_NB" />
+        <group name="Headphone_Incall_VT_Audio" />
+        <group name="Headphone_Incall_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 <!-- Audio+VoLTE_Video_WB (Headphone) -->
     <scenario name="AndroidPlayback_Audio_Headphone_VoLTE_Video_WB">
         <mixer name="Output Path" value0="HP" />
-        <group name="Headphone_VoLTE_Video_WB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headphone_Incall_VT_WB" />
+        <group name="Headphone_Incall_VT_Audio" />
+        <group name="Headphone_Incall_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 
     <scenario name="AndroidPlayback_Audio_Loopback_Headphone_Normal">
@@ -4638,14 +4597,18 @@
 <!-- Audio+VoLTE_Video_NB (Headset) -->
     <scenario name="AndroidPlayback_Audio_Headset_VoLTE_Video_NB">
         <mixer name="Output Path" value0="HS" />
-        <group name="Headset_VoLTE_Video_NB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headset_Incall_VT_NB" />
+        <group name="Headset_Incall_VT_Audio" />
+        <group name="Headset_Incall_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 <!-- Audio+VoLTE_Video_WB (Headset) -->
     <scenario name="AndroidPlayback_Audio_Headset_VoLTE_Video_WB">
         <mixer name="Output Path" value0="HS" />
-        <group name="Headset_VoLTE_Video_WB" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Headset_Incall_VT_WB" />
+        <group name="Headset_Incall_VT_Audio" />
+        <group name="Headset_Incall_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Loopback_Headset_Normal">
         <mixer name="Output Path" value0="HS" />
@@ -4731,23 +4694,31 @@
 <!-- VoLTE_Video (Bluetooth) -->
     <scenario name="AndroidPlayback_Audio_Bluetooth_VoLTE_Video_BT8_NB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_NB_BT8" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_NB" />
+        <group name="Bluetooth_Incall_VT_Audio" />
+        <group name="Bluetooth_Incall_BT8_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Bluetooth_VoLTE_Video_BT16_NB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_NB_BT16" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_NB" />
+        <group name="Bluetooth_Incall_VT_Audio" />
+        <group name="Bluetooth_Incall_BT16_NB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Bluetooth_VoLTE_Video_BT8_WB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_WB_BT8" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_WB" />
+        <group name="Bluetooth_Incall_VT_Audio" />
+        <group name="Bluetooth_Incall_BT8_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
     <scenario name="AndroidPlayback_Audio_Bluetooth_VoLTE_Video_BT16_WB">
         <mixer name="Output Path" value0="BT" />
-        <group name="Bluetooth_VoLTE_Video_WB_BT16" />
-        <mixer name="Audio Mode Playback" value0="incommunication2" />
+        <group name="Bluetooth_Incall_VT_WB" />
+        <group name="Bluetooth_Incall_VT_Audio" />
+        <group name="Bluetooth_Incall_BT16_WB_Type3" />
+        <mixer name="Audio Mode Playback" value0="audio+incall2" />
     </scenario>
 
 <!--
@@ -4822,7 +4793,7 @@
         <mixer name="Music In0 Swap" value0="0" />
         <mixer name="Dac0 Output Volume" value0="96" value1="96" />
         <mixer name="Dac0 Output Switch" value0="1" value1="1" />
-        <mixer name="Receiver Volume" value0="111" />
+        <mixer name="Receiver Volume" value0="99" />
         <mixer name="Receiver Switch" value0="1" />
         <mixer name="Dac0 Swap" value0="5" />
         <mixer name="Audio Mode Playback" value0="audio" />
@@ -4838,7 +4809,7 @@
         <mixer name="Music In0 Swap" value0="0" />
         <mixer name="Dac0 Output Volume" value0="96" value1="96" />
         <mixer name="Dac0 Output Switch" value0="1" value1="1" />
-        <mixer name="Receiver Volume" value0="111" />
+        <mixer name="Receiver Volume" value0="99" />
         <mixer name="Receiver Switch" value0="1" />
         <mixer name="Dac0 Swap" value0="5" />
         <mixer name="Audio Mode Playback" value0="audio" />
@@ -4854,7 +4825,7 @@
         <mixer name="Music In0 Swap" value0="0" />
         <mixer name="Dac0 Output Volume" value0="96" value1="96" />
         <mixer name="Dac0 Output Switch" value0="1" value1="1" />
-        <mixer name="Receiver Volume" value0="111" />
+        <mixer name="Receiver Volume" value0="99" />
         <mixer name="Receiver Switch" value0="1" />
         <mixer name="Dac0 Swap" value0="5" />
         <mixer name="Audio Mode Playback" value0="audio" />
@@ -5300,7 +5271,6 @@
         <group name="Bluetooth_Incommunication_FMC_BT16" />
         <mixer name="Audio Mode Playback" value0="incommunication2" />
     </scenario>
-
     <scenario name="AndroidPlayback_Audio_Lineout1_Normal">
         <mixer name="Output Path" value0="LO1" />
         <mixer name="Clear Dsp Parameter" value0="ON" />
@@ -6402,23 +6372,17 @@
         <mixer name="Audio Mode Capture" value0="incall" />
     </scenario>
 <!-- VoLTE Video(Talker) -->
-    <scenario name="AndroidCapture_MainMic_VoLTE_Video">
-        <mixer name="Music Output Volume" value0="96" value1="96" />
-        <mixer name="Music Output Switch" value0="1" value1="1" />
-        <mixer name="Music Out0 Swap" value0="6" />
-        <mixer name="Audio Mode Capture" value0="incommunication" />
+    <scenario name="AndroidCapture_IncallMic_VoLTE_Video">
+        <mixer name="Voice Out Swap" value0="2" />
+        <mixer name="Audio Mode Capture" value0="incall" />
     </scenario>
     <scenario name="AndroidCapture_Headset_VoLTE_Video">
-        <mixer name="Music Output Volume" value0="96" value1="96" />
-        <mixer name="Music Output Switch" value0="1" value1="1" />
-        <mixer name="Music Out0 Swap" value0="0" />
-        <mixer name="Audio Mode Capture" value0="incommunication" />
+        <mixer name="Voice Out Swap" value0="2" />
+        <mixer name="Audio Mode Capture" value0="incall" />
     </scenario>
     <scenario name="AndroidCapture_Bluetooth_VoLTE_Video">
-        <mixer name="Music Output Volume" value0="96" value1="96" />
-        <mixer name="Music Output Switch" value0="1" value1="1" />
-        <mixer name="Music Out0 Swap" value0="0" />
-        <mixer name="Audio Mode Capture" value0="incommunication" />
+        <mixer name="Voice Out Swap" value0="2" />
+        <mixer name="Audio Mode Capture" value0="incall" />
     </scenario>
 <!-- Audio(Record) + Incall(Talker) -->
     <scenario name="AndroidCapture_VoiceRec_IncallMic_Incall">

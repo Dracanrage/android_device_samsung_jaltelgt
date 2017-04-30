@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/jalteskt
+LOCAL_PATH := device/samsung/jaltelgt
 
 BOARD_VENDOR := samsung
 
@@ -23,25 +23,25 @@ BOARD_VENDOR := samsung
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jalte,jalteskt,e300s,SHV-E300S
+TARGET_OTA_ASSERT_DEVICE := jalte,jaltelgt,e300l,SHV-E300L
 
 # Platform
 TARGET_SOC := exynos5410
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_jalteskt_defconfig
+TARGET_KERNEL_CONFIG := lineageos_jaltelgt_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
-# Linker
-LINKER_FORCED_SHIM_LIBS := /system/bin/gpsd|libdmitry.so
+# GPS
+TARGET_NO_RPC := true
+BOARD_GPS_SET_PRIVACY := true
 
 # Radio
-BOARD_GLOBAL_CFLAGS += -DSEC_PRODUCT_FEATURE_RIL_CALL_DUALMODE_CDMAGSM
-BOARD_MODEM_TYPE := ss333
 BOARD_PROVIDES_LIBRIL := true
-BOARD_RIL_CLASS := ../../../device/samsung/jalteskt/ril
+BOARD_MODEM_TYPE := mdm9x35
+BOARD_RIL_CLASS := ../../../device/samsung/jaltelgt/ril
 TARGET_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 
 # Recovery
@@ -49,10 +49,10 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.universal5410
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/jalteskt/sepolicy
+    device/samsung/jaltelgt/sepolicy
 
 # inherit from the proprietary version
--include vendor/samsung/jalteskt/BoardConfigVendor.mk
+-include vendor/samsung/jaltelgt/BoardConfigVendor.mk
 
 # inherit common board flags
 include device/samsung/exynos5410-common/BoardConfigCommon.mk

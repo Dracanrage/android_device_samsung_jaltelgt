@@ -10,6 +10,7 @@ lib/lib_soundaliveresampler.so
 lib/libsamsungRecord.so
 lib/libsamsungRecord_ns.so
 lib/libsamsungRecord_zoom.so
+lib/libssaudio-client.so
 lib/lib_SoundAlive_SRC192_ver205.so
 lib/lib_SamsungRec_V03011b.so
 lib/lib_DNSe_NRSS_ver226.so
@@ -72,8 +73,6 @@ etc/ymc/param/aec_hf50_nb_type2_rc_2mic_2.dat
 etc/ymc/param/aec_hf50_nb_type3_rc_2mic.dat
 etc/ymc/param/aec_hf50_nb_type3_rc_2mic_2.dat
 etc/ymc/param/aec_hf50_nb_vbox_cp.dat
-etc/ymc/param/aec_hf50_vnb_type0_rc_2mic_2.dat
-etc/ymc/param/aec_hf50_vnb_type1_rc_2mic_2.dat
 etc/ymc/param/aec_hf50_voip_type0_rc_2mic.dat
 etc/ymc/param/aec_hf50_voip_type0_rc_2mic_2.dat
 etc/ymc/param/aec_hf50_voip_type0_sp_2mic.dat
@@ -145,14 +144,34 @@ vendor/firmware/srp_data.bin
 vendor/firmware/srp_vliw.bin
 
 # Bluetooth
-vendor/firmware/bcm4335_V0346.0363.hcd
-
-# GPS
-bin/gpsd
-lib/hw/gps.default.so:lib/hw/gps.universal5410.so
-lib/libwrappergps.so
+vendor/firmware/bcm4335_V0346.0364.hcd
 
 # Radio
-bin/cbd
+bin/efsks
+bin/qcks
+bin/qmuxd
+bin/ks_9x15
+etc/Diag.cfg
+etc/Diag_zero.cfg
+lib/libakm.so
+lib/libcsd-client.so
+lib/libloc_api_v02.so
 lib/libsecnativefeature.so
 lib/libsec-ril.so
+lib/libxml.so
+vendor/lib/libconfigdb.so
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libgeofence.so
+vendor/lib/libidl.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+vendor/lib/libqmi.so
+vendor/lib/libril-qcril-hook-oem.so

@@ -17,7 +17,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "SHV-E300S"
+#define BTM_DEF_LOCAL_NAME   "SHV-E300L"
 #define BTA_DISABLE_DELAY 1000
 
 #endif
