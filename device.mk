@@ -64,6 +64,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/sap.conf:/system/etc/sap.conf
 
 # Radio
+PRODUCT_PACKAGES += \
+    libsamsung_symbols \
+    libxml2 \
+    libprotobuf-cpp-full
+
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=pdp0,gprs,ppp0,rmnet0,rmnet1 \
     ro.telephony.ril_class=smdk4x12QComRIL

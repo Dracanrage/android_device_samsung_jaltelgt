@@ -151,13 +151,17 @@ bin/efsks
 bin/qcks
 bin/qmuxd
 bin/ks_9x15
+bin/rild
 etc/Diag.cfg
 etc/Diag_zero.cfg
 lib/libakm.so
 lib/libcsd-client.so
 lib/libloc_api_v02.so
+lib/libreference-ril.so
+lib/libril.so
 lib/libsecnativefeature.so
 lib/libsec-ril.so
+lib/libsecril-client.so
 lib/libxml.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
