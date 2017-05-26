@@ -17,4 +17,4 @@ persist.data.netmgrd.qos.enable=false
 persist.timed.enable=true
 
 # OTA
-ro.ota.manifest=https://raw.githubusercontent.com/exynos5410/android_device_samsung_jaltelgt/cm-14.1/ota.xml
+ro.ota.manifest=https://raw.githubusercontent.com/exynos5410/weekly_ota/cm-14.1/jaltelgt.xml
