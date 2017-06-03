@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    libsamsung_symbols \
     libxml2 \
     libprotobuf-cpp-full
 
