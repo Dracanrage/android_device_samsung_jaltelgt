@@ -17,6 +17,12 @@
 
 LOCAL_PATH := device/samsung/jaltelgt
 
+#Others
+GAPPS_VARIANT := nano
+GAPPS_FORCE_MATCHING_DPI := true
+PRODUCT_PACKAGES += \
+	OTAUpdates \
+
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -74,3 +80,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/jaltelgt/jaltelgt-vendor.mk)
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
