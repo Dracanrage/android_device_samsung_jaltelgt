@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/jaltelgt/full_jaltelgt.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Mokee stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_jaltelgt
+PRODUCT_NAME := mk_jaltelgt
 PRODUCT_DEVICE := jaltelgt
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
