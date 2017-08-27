@@ -1,1 +1,1 @@
-add_lunch_combo lineage_jaltelgt-userdebug
+add_lunch_combo mk_jaltelgt-userdebug
